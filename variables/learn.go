@@ -1,10 +1,15 @@
 package variables
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 var fullname string //global
 var email string = "pachara.prap@gmail.com"
 var c, python bool = true, false
+
+const vat int = 7
 
 func Learn() {
 	fullname = "Pachara"
@@ -21,4 +26,9 @@ func Learn() {
 
 	f := float64(age)
 	fmt.Printf("%T \n", f)
+
+	//Convert to string
+	s := strconv.Itoa(vat)
+	fmt.Println("Vat is " + s)
+
 }

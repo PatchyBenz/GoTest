@@ -1,9 +1,11 @@
 package main
 
-import "github.com/PatchyBenz/GoTest/variables"
+import "github.com/PatchyBenz/GoTest/flowcontrol"
 
 func main() {
 	// fmt.Println("Hello World")
 	// fmt.Println(quote.Hello())
-	variables.Learn()
+	// variables.Learn()
+	// functions.Learn()
+	flowcontrol.Learn()
 }
