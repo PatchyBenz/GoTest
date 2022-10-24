@@ -1,6 +1,6 @@
 package main
 
-import "github.com/PatchyBenz/GoTest/arrayandslice"
+import "github.com/PatchyBenz/GoTest/mapandstruct"
 
 func main() {
 	// fmt.Println("Hello World")
@@ -8,5 +8,6 @@ func main() {
 	// variables.Learn()
 	// functions.Learn()
 	// flowcontrol.Learn()
-	arrayandslice.Learn()
+	// arrayandslice.Learn()
+	mapandstruct.Learn()
 }

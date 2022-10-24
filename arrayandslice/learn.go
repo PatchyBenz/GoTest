@@ -22,4 +22,9 @@ func Learn() {
 
 	fmt.Printf("len = %d  cap  %d \n", len(s2), cap(s2))
 
+	x := []int{1, 2}
+	y := []int{3, 4}
+	z := append(x, y...)
+	fmt.Println(z)
+
 }
