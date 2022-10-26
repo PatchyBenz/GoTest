@@ -1,6 +1,8 @@
 package main
 
-import "github.com/PatchyBenz/GoTest/mapandstruct"
+import (
+	"github.com/PatchyBenz/GoTest/pointers"
+)
 
 func main() {
 	// fmt.Println("Hello World")
@@ -9,5 +11,6 @@ func main() {
 	// functions.Learn()
 	// flowcontrol.Learn()
 	// arrayandslice.Learn()
-	mapandstruct.Learn()
+	// mapandstruct.Learn()
+	pointers.Learn()
 }
